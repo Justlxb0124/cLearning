@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "02.hello_world.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.hello_world.c-Debug-739236d0da07ff143631.json",
+					"name" : "02.hello_world.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.debug_c_program.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.debug_c_program.c-Debug-95f2b939fb8a3b45bf59.json",
+					"name" : "03.debug_c_program.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.code_style_bad_names.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.code_style_bad_names.c-Debug-1ead359ed6c705e08539.json",
+					"name" : "04.code_style_bad_names.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.code_style_good_names.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.code_style_good_names.c-Debug-84c5a63f24e60796e5c3.json",
+					"name" : "05.code_style_good_names.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/macos/local/proj/cLearning/Chapter1/cmake-build-debug",
+		"source" : "/Users/macos/local/proj/cLearning/Chapter1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
