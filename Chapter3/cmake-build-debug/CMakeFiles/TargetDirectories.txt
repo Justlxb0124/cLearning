@@ -1,0 +1,3 @@
+/Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/01.data_types.c.dir
