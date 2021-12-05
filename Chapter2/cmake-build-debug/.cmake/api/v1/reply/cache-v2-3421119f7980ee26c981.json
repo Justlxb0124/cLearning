@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/macos/local/proj/cLearning/Chapter1/cmake-build-debug"
+			"value" : "/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/macos/local/proj/cLearning/Chapter1"
+			"value" : "/Users/macos/local/proj/cLearning/Chapter2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -699,7 +699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Chapter1"
+			"value" : "Chapter2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -982,7 +982,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Chapter1_BINARY_DIR",
+			"name" : "Chapter2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -991,10 +991,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/macos/local/proj/cLearning/Chapter1/cmake-build-debug"
+			"value" : "/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug"
 		},
 		{
-			"name" : "Chapter1_IS_TOP_LEVEL",
+			"name" : "Chapter2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1006,7 +1006,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Chapter1_SOURCE_DIR",
+			"name" : "Chapter2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/macos/local/proj/cLearning/Chapter1"
+			"value" : "/Users/macos/local/proj/cLearning/Chapter2"
 		}
 	],
 	"kind" : "cache",

@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Chapter1
+# Project: Chapter2
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -99,7 +99,7 @@ rule C_EXECUTABLE_LINKER__02.2ehello_world.2ec_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter1 -B/Users/macos/local/proj/cLearning/Chapter1/cmake-build-debug
+  command = "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter2 -B/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

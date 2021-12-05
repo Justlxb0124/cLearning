@@ -1,0 +1,6 @@
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/05.code_style_good_names.c.dir
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/04.code_style_bad_names.c.dir
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/03.debug_c_program.c.dir
+/Users/macos/local/proj/cLearning/Chapter2/cmake-build-debug/CMakeFiles/02.hello_world.c.dir
