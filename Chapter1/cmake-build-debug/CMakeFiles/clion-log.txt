@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/macos/local/proj/cLearning/Chapter1 Select CMakeLists.txt
