@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -77,6 +79,13 @@
 					"id" : "05.constant.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05.constant.c-Debug-1d47e6498b33211bf084.json",
 					"name" : "05.constant.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.operators.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.operators.c-Debug-899bc1d0cec56c928122.json",
+					"name" : "06.operators.c",
 					"projectIndex" : 0
 				}
 			]

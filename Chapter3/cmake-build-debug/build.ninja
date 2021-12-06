@@ -126,6 +126,37 @@ build 03.data_types_float.c: C_EXECUTABLE_LINKER__03.2edata_types_float.2ec_Debu
   TARGET_PDB = 03.data_types_float.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 06.operators.c
+
+
+#############################################
+# Order-only phony target for 06.operators.c
+
+build cmake_object_order_depends_target_06.operators.c: phony || CMakeFiles/06.operators.c.dir
+
+build CMakeFiles/06.operators.c.dir/06.operators.c.o: C_COMPILER__06.2eoperators.2ec_Debug /Users/macos/local/proj/cLearning/Chapter3/06.operators.c || cmake_object_order_depends_target_06.operators.c
+  DEP_FILE = CMakeFiles/06.operators.c.dir/06.operators.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/06.operators.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/06.operators.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.operators.c
+
+
+#############################################
+# Link the executable 06.operators.c
+
+build 06.operators.c: C_EXECUTABLE_LINKER__06.2eoperators.2ec_Debug CMakeFiles/06.operators.c.dir/06.operators.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/06.operators.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06.operators.c
+  TARGET_PDB = 06.operators.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 05.constant.c
 
 
@@ -229,7 +260,7 @@ build 01.data_types_int.c: C_EXECUTABLE_LINKER__01.2edata_types_int.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug
 
-build all: phony 04.variable.c 03.data_types_float.c 05.constant.c 02.data_types_char.c 01.data_types_int.c
+build all: phony 04.variable.c 03.data_types_float.c 06.operators.c 05.constant.c 02.data_types_char.c 01.data_types_int.c
 
 # =============================================================================
 # Built-in targets
