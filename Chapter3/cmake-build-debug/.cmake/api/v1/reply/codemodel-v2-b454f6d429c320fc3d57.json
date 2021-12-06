@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "02.data_types_char.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02.data_types_char.c-Debug-b67107a158554fe5d1a7.json",
 					"name" : "02.data_types_char.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.data_types_float.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.data_types_float.c-Debug-36066ade18a2c947496c.json",
+					"name" : "03.data_types_float.c",
 					"projectIndex" : 0
 				}
 			]
