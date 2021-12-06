@@ -64,6 +64,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 04.variable.c
+
+
+#############################################
+# Order-only phony target for 04.variable.c
+
+build cmake_object_order_depends_target_04.variable.c: phony || CMakeFiles/04.variable.c.dir
+
+build CMakeFiles/04.variable.c.dir/04.variable.c.o: C_COMPILER__04.2evariable.2ec_Debug /Users/macos/local/proj/cLearning/Chapter3/04.variable.c || cmake_object_order_depends_target_04.variable.c
+  DEP_FILE = CMakeFiles/04.variable.c.dir/04.variable.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.variable.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.variable.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.variable.c
+
+
+#############################################
+# Link the executable 04.variable.c
+
+build 04.variable.c: C_EXECUTABLE_LINKER__04.2evariable.2ec_Debug CMakeFiles/04.variable.c.dir/04.variable.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/04.variable.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.variable.c
+  TARGET_PDB = 04.variable.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 03.data_types_float.c
 
 
@@ -93,6 +124,37 @@ build 03.data_types_float.c: C_EXECUTABLE_LINKER__03.2edata_types_float.2ec_Debu
   PRE_LINK = :
   TARGET_FILE = 03.data_types_float.c
   TARGET_PDB = 03.data_types_float.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05.constant.c
+
+
+#############################################
+# Order-only phony target for 05.constant.c
+
+build cmake_object_order_depends_target_05.constant.c: phony || CMakeFiles/05.constant.c.dir
+
+build CMakeFiles/05.constant.c.dir/05.constant.c.o: C_COMPILER__05.2econstant.2ec_Debug /Users/macos/local/proj/cLearning/Chapter3/05.constant.c || cmake_object_order_depends_target_05.constant.c
+  DEP_FILE = CMakeFiles/05.constant.c.dir/05.constant.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.constant.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.constant.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.constant.c
+
+
+#############################################
+# Link the executable 05.constant.c
+
+build 05.constant.c: C_EXECUTABLE_LINKER__05.2econstant.2ec_Debug CMakeFiles/05.constant.c.dir/05.constant.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/05.constant.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.constant.c
+  TARGET_PDB = 05.constant.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02.data_types_char.c
@@ -167,7 +229,7 @@ build 01.data_types_int.c: C_EXECUTABLE_LINKER__01.2edata_types_int.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug
 
-build all: phony 03.data_types_float.c 02.data_types_char.c 01.data_types_int.c
+build all: phony 04.variable.c 03.data_types_float.c 05.constant.c 02.data_types_char.c 01.data_types_int.c
 
 # =============================================================================
 # Built-in targets

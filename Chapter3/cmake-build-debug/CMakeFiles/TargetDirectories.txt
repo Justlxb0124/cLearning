@@ -1,5 +1,7 @@
 /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/04.variable.c.dir
 /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/03.data_types_float.c.dir
+/Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/05.constant.c.dir
 /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/02.data_types_char.c.dir
 /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug/CMakeFiles/01.data_types_int.c.dir
