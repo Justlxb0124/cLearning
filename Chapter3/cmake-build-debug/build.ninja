@@ -219,6 +219,37 @@ build 05.constant.c: C_EXECUTABLE_LINKER__05.2econstant.2ec_Debug CMakeFiles/05.
   TARGET_PDB = 05.constant.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 09.guess_number.c
+
+
+#############################################
+# Order-only phony target for 09.guess_number.c
+
+build cmake_object_order_depends_target_09.guess_number.c: phony || CMakeFiles/09.guess_number.c.dir
+
+build CMakeFiles/09.guess_number.c.dir/09.guess_number.c.o: C_COMPILER__09.2eguess_number.2ec_Debug /Users/macos/local/proj/cLearning/Chapter3/09.guess_number.c || cmake_object_order_depends_target_09.guess_number.c
+  DEP_FILE = CMakeFiles/09.guess_number.c.dir/09.guess_number.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/09.guess_number.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/09.guess_number.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09.guess_number.c
+
+
+#############################################
+# Link the executable 09.guess_number.c
+
+build 09.guess_number.c: C_EXECUTABLE_LINKER__09.2eguess_number.2ec_Debug CMakeFiles/09.guess_number.c.dir/09.guess_number.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/09.guess_number.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 09.guess_number.c
+  TARGET_PDB = 09.guess_number.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 07.condition.c
 
 
@@ -322,7 +353,7 @@ build 01.data_types_int.c: C_EXECUTABLE_LINKER__01.2edata_types_int.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug
 
-build all: phony 08.loop.c 04.variable.c 03.data_types_float.c 06.operators.c 05.constant.c 07.condition.c 02.data_types_char.c 01.data_types_int.c
+build all: phony 08.loop.c 04.variable.c 03.data_types_float.c 06.operators.c 05.constant.c 09.guess_number.c 07.condition.c 02.data_types_char.c 01.data_types_int.c
 
 # =============================================================================
 # Built-in targets
