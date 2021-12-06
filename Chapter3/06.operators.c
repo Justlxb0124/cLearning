@@ -45,7 +45,7 @@ int main() {
 
   int resizable = window_flags & FLAG_RESIZABLE;  // 0100
 
-  int visable = window_flags & FLAG_VISIBLE;  // 0000
+  int visible = window_flags & FLAG_VISIBLE;  // 0000
 
   // 移位运算符 << >>
 #define FLAG_VISIBLE 1 << 0  // 2^0, 0001
