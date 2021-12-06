@@ -64,6 +64,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 08.loop.c
+
+
+#############################################
+# Order-only phony target for 08.loop.c
+
+build cmake_object_order_depends_target_08.loop.c: phony || CMakeFiles/08.loop.c.dir
+
+build CMakeFiles/08.loop.c.dir/08.loop.c.o: C_COMPILER__08.2eloop.2ec_Debug /Users/macos/local/proj/cLearning/Chapter3/08.loop.c || cmake_object_order_depends_target_08.loop.c
+  DEP_FILE = CMakeFiles/08.loop.c.dir/08.loop.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/08.loop.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/08.loop.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08.loop.c
+
+
+#############################################
+# Link the executable 08.loop.c
+
+build 08.loop.c: C_EXECUTABLE_LINKER__08.2eloop.2ec_Debug CMakeFiles/08.loop.c.dir/08.loop.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/08.loop.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 08.loop.c
+  TARGET_PDB = 08.loop.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 04.variable.c
 
 
@@ -291,7 +322,7 @@ build 01.data_types_int.c: C_EXECUTABLE_LINKER__01.2edata_types_int.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter3/cmake-build-debug
 
-build all: phony 04.variable.c 03.data_types_float.c 06.operators.c 05.constant.c 07.condition.c 02.data_types_char.c 01.data_types_int.c
+build all: phony 08.loop.c 04.variable.c 03.data_types_float.c 06.operators.c 05.constant.c 07.condition.c 02.data_types_char.c 01.data_types_int.c
 
 # =============================================================================
 # Built-in targets
