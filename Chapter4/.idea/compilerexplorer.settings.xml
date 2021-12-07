@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerExplorerSettingsProvider">
+    <option name="enabled" value="false" />
+    <option name="url" value="http://godbolt.org" />
+    <option name="additionalSwitches" value="-fverb" />
+    <option name="initialNoticeShown" value="true" />
+  </component>
+</project>

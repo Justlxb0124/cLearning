@@ -95,6 +95,37 @@ build 02.proto_type.c: C_EXECUTABLE_LINKER__02.2eproto_type.2ec_Debug CMakeFiles
   TARGET_PDB = 02.proto_type.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 03.variable_types_and_scope.c
+
+
+#############################################
+# Order-only phony target for 03.variable_types_and_scope.c
+
+build cmake_object_order_depends_target_03.variable_types_and_scope.c: phony || CMakeFiles/03.variable_types_and_scope.c.dir
+
+build CMakeFiles/03.variable_types_and_scope.c.dir/03.variable_types_and_scope.c.o: C_COMPILER__03.2evariable_types_and_scope.2ec_Debug /Users/macos/local/proj/cLearning/Chapter4/03.variable_types_and_scope.c || cmake_object_order_depends_target_03.variable_types_and_scope.c
+  DEP_FILE = CMakeFiles/03.variable_types_and_scope.c.dir/03.variable_types_and_scope.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/03.variable_types_and_scope.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.variable_types_and_scope.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.variable_types_and_scope.c
+
+
+#############################################
+# Link the executable 03.variable_types_and_scope.c
+
+build 03.variable_types_and_scope.c: C_EXECUTABLE_LINKER__03.2evariable_types_and_scope.2ec_Debug CMakeFiles/03.variable_types_and_scope.c.dir/03.variable_types_and_scope.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/03.variable_types_and_scope.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.variable_types_and_scope.c
+  TARGET_PDB = 03.variable_types_and_scope.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01.function_basics.c
 
 
@@ -136,7 +167,7 @@ build 01.function_basics.c: C_EXECUTABLE_LINKER__01.2efunction_basics.2ec_Debug 
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug
 
-build all: phony 02.proto_type.c 01.function_basics.c
+build all: phony 02.proto_type.c 03.variable_types_and_scope.c 01.function_basics.c
 
 # =============================================================================
 # Built-in targets

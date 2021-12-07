@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "02.proto_type.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02.proto_type.c-Debug-4d597877f1c635fd6555.json",
 					"name" : "02.proto_type.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.variable_types_and_scope.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.variable_types_and_scope.c-Debug-d36c282849f02e3567c9.json",
+					"name" : "03.variable_types_and_scope.c",
 					"projectIndex" : 0
 				}
 			]

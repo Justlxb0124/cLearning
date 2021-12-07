@@ -1,4 +1,5 @@
 /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug/CMakeFiles/02.proto_type.c.dir
+/Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug/CMakeFiles/03.variable_types_and_scope.c.dir
 /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug/CMakeFiles/01.function_basics.c.dir
