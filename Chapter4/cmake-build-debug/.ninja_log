@@ -1,0 +1,5 @@
+# ninja log v5
+0	22	1638857485650260321	CMakeFiles/01.function_basics.c.dir/01.function_basics.c.o	2503566c31c534db
+22	60	1638857485688586391	01.function_basics.c	b505526f42be87d8
+0	58	1638859557308069471	CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o	36a12e276e24ceb0
+58	94	1638859557344789064	02.proto_type.c	e734c8d06dd6eefa
