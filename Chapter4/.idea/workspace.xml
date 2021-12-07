@@ -7,6 +7,7 @@
     <generated>
       <config projectName="Chapter4" targetName="01.function_basics.c" />
       <config projectName="Chapter4" targetName="03.variable_types_and_scope.c" />
+      <config projectName="Chapter4" targetName="05.recursion.c" />
       <config projectName="Chapter4" targetName="02.proto_type.c" />
       <config projectName="Chapter4" targetName="04.varargs.c" />
     </generated>
@@ -18,10 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488eac01-c153-42b5-bb1f-f0086ff9981e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04.varargs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05.recursion.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0fc9b91b227773dedd16.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-07T07-03-45-0577.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-aeef55f3b420ea8434e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-07T08-00-19-0069.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -79,7 +80,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="compilerexplorer" />
   </component>
-  <component name="RunManager" selected="CMake Application.04.varargs.c">
+  <component name="RunManager" selected="CMake Application.05.recursion.c">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -105,11 +106,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="05.recursion.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter4" TARGET_NAME="05.recursion.c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter4" RUN_TARGET_NAME="05.recursion.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.01.function_basics.c" />
       <item itemvalue="CMake Application.02.proto_type.c" />
       <item itemvalue="CMake Application.03.variable_types_and_scope.c" />
       <item itemvalue="CMake Application.04.varargs.c" />
+      <item itemvalue="CMake Application.05.recursion.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -122,7 +129,7 @@
       <updated>1638856239355</updated>
       <workItem from="1638856240614" duration="6740000" />
       <workItem from="1638863251147" duration="52000" />
-      <workItem from="1638863316011" duration="2596000" />
+      <workItem from="1638863316011" duration="5140000" />
     </task>
     <servers />
   </component>

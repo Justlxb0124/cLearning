@@ -51,6 +51,68 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02.proto_type.c
+
+
+#############################################
+# Order-only phony target for 02.proto_type.c
+
+build cmake_object_order_depends_target_02.proto_type.c: phony || CMakeFiles/02.proto_type.c.dir
+
+build CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o: C_COMPILER__02.2eproto_type.2ec_Debug /Users/macos/local/proj/cLearning/Chapter4/02.proto_type.c || cmake_object_order_depends_target_02.proto_type.c
+  DEP_FILE = CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/02.proto_type.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/02.proto_type.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02.proto_type.c
+
+
+#############################################
+# Link the executable 02.proto_type.c
+
+build 02.proto_type.c: C_EXECUTABLE_LINKER__02.2eproto_type.2ec_Debug CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/02.proto_type.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02.proto_type.c
+  TARGET_PDB = 02.proto_type.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05.recursion.c
+
+
+#############################################
+# Order-only phony target for 05.recursion.c
+
+build cmake_object_order_depends_target_05.recursion.c: phony || CMakeFiles/05.recursion.c.dir
+
+build CMakeFiles/05.recursion.c.dir/05.recursion.c.o: C_COMPILER__05.2erecursion.2ec_Debug /Users/macos/local/proj/cLearning/Chapter4/05.recursion.c || cmake_object_order_depends_target_05.recursion.c
+  DEP_FILE = CMakeFiles/05.recursion.c.dir/05.recursion.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.recursion.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.recursion.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.recursion.c
+
+
+#############################################
+# Link the executable 05.recursion.c
+
+build 05.recursion.c: C_EXECUTABLE_LINKER__05.2erecursion.2ec_Debug CMakeFiles/05.recursion.c.dir/05.recursion.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/05.recursion.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.recursion.c
+  TARGET_PDB = 05.recursion.c.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -93,37 +155,6 @@ build 04.varargs.c: C_EXECUTABLE_LINKER__04.2evarargs.2ec_Debug CMakeFiles/04.va
   PRE_LINK = :
   TARGET_FILE = 04.varargs.c
   TARGET_PDB = 04.varargs.c.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 02.proto_type.c
-
-
-#############################################
-# Order-only phony target for 02.proto_type.c
-
-build cmake_object_order_depends_target_02.proto_type.c: phony || CMakeFiles/02.proto_type.c.dir
-
-build CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o: C_COMPILER__02.2eproto_type.2ec_Debug /Users/macos/local/proj/cLearning/Chapter4/02.proto_type.c || cmake_object_order_depends_target_02.proto_type.c
-  DEP_FILE = CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
-  OBJECT_DIR = CMakeFiles/02.proto_type.c.dir
-  OBJECT_FILE_DIR = CMakeFiles/02.proto_type.c.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02.proto_type.c
-
-
-#############################################
-# Link the executable 02.proto_type.c
-
-build 02.proto_type.c: C_EXECUTABLE_LINKER__02.2eproto_type.2ec_Debug CMakeFiles/02.proto_type.c.dir/02.proto_type.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
-  OBJECT_DIR = CMakeFiles/02.proto_type.c.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02.proto_type.c
-  TARGET_PDB = 02.proto_type.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03.variable_types_and_scope.c
@@ -198,7 +229,7 @@ build 01.function_basics.c: C_EXECUTABLE_LINKER__01.2efunction_basics.2ec_Debug 
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter4/cmake-build-debug
 
-build all: phony 04.varargs.c 02.proto_type.c 03.variable_types_and_scope.c 01.function_basics.c
+build all: phony 02.proto_type.c 05.recursion.c 04.varargs.c 03.variable_types_and_scope.c 01.function_basics.c
 
 # =============================================================================
 # Built-in targets
