@@ -4,3 +4,8 @@
 0	53	1638893376290138176	CMakeFiles/02.my_include_file.c.dir/src/factorial.c.o	1a3c1890259a461a
 0	53	1638893376290302003	CMakeFiles/02.my_include_file.c.dir/02.my_include_file.c.o	898766ff951d1fe6
 53	95	1638893376333857021	02.my_include_file.c	4f7f9efd77f932bb
+0	44	1638942964822551805	CMakeFiles/03.marco_function.c.dir/03.marco_function.c.o	18e0dd960bb54d1f
+0	44	1638942964822551680	CMakeFiles/03.marco_function.c.dir/src/factorial.c.o	e9dc1b39a3299883
+44	85	1638942964864255403	03.marco_function.c	121a5abfe7e71094
+0	20	1638943829477359173	CMakeFiles/03.marco_function.c.dir/03.marco_function.c.o	18e0dd960bb54d1f
+20	48	1638943829505697072	03.marco_function.c	121a5abfe7e71094

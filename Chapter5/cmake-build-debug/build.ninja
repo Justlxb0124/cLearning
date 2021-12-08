@@ -41,6 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 03.marco_function.c
+
+
+#############################################
+# Order-only phony target for 03.marco_function.c
+
+build cmake_object_order_depends_target_03.marco_function.c: phony || CMakeFiles/03.marco_function.c.dir
+
+build CMakeFiles/03.marco_function.c.dir/03.marco_function.c.o: C_COMPILER__03.2emarco_function.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/03.marco_function.c || cmake_object_order_depends_target_03.marco_function.c
+  DEP_FILE = CMakeFiles/03.marco_function.c.dir/03.marco_function.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/03.marco_function.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.marco_function.c.dir
+
+build CMakeFiles/03.marco_function.c.dir/src/factorial.c.o: C_COMPILER__03.2emarco_function.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/src/factorial.c || cmake_object_order_depends_target_03.marco_function.c
+  DEP_FILE = CMakeFiles/03.marco_function.c.dir/src/factorial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/03.marco_function.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.marco_function.c.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.marco_function.c
+
+
+#############################################
+# Link the executable 03.marco_function.c
+
+build 03.marco_function.c: C_EXECUTABLE_LINKER__03.2emarco_function.2ec_Debug CMakeFiles/03.marco_function.c.dir/03.marco_function.c.o CMakeFiles/03.marco_function.c.dir/src/factorial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/03.marco_function.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.marco_function.c
+  TARGET_PDB = 03.marco_function.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 02.my_include_file.c
 
 
@@ -148,7 +185,7 @@ build 01.file_include.c: C_EXECUTABLE_LINKER__01.2efile_include.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
 
-build all: phony 02.my_include_file.c 01.file_include.c
+build all: phony 03.marco_function.c 02.my_include_file.c 01.file_include.c
 
 # =============================================================================
 # Built-in targets
