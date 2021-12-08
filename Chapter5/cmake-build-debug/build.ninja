@@ -52,6 +52,17 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 04.conditional_marco.c
 
@@ -163,16 +174,42 @@ build 02.my_include_file.c: C_EXECUTABLE_LINKER__02.2emy_include_file.2ec_Debug 
   TARGET_FILE = 02.my_include_file.c
   TARGET_PDB = 02.my_include_file.c.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 05.printlnf.c
+
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for 05.printlnf.c
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_05.printlnf.c: phony || CMakeFiles/05.printlnf.c.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/05.printlnf.c.dir/05.printlnf.c.o: C_COMPILER__05.2eprintlnf.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/05.printlnf.c || cmake_object_order_depends_target_05.printlnf.c
+  DEP_FILE = CMakeFiles/05.printlnf.c.dir/05.printlnf.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.printlnf.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.printlnf.c.dir
+
+build CMakeFiles/05.printlnf.c.dir/src/factorial.c.o: C_COMPILER__05.2eprintlnf.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/src/factorial.c || cmake_object_order_depends_target_05.printlnf.c
+  DEP_FILE = CMakeFiles/05.printlnf.c.dir/src/factorial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.printlnf.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.printlnf.c.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.printlnf.c
+
+
+#############################################
+# Link the executable 05.printlnf.c
+
+build 05.printlnf.c: C_EXECUTABLE_LINKER__05.2eprintlnf.2ec_Debug CMakeFiles/05.printlnf.c.dir/05.printlnf.c.o CMakeFiles/05.printlnf.c.dir/src/factorial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/05.printlnf.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.printlnf.c
+  TARGET_PDB = 05.printlnf.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01.file_include.c
@@ -222,7 +259,7 @@ build 01.file_include.c: C_EXECUTABLE_LINKER__01.2efile_include.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
 
-build all: phony 04.conditional_marco.c 03.marco_function.c 02.my_include_file.c 01.file_include.c
+build all: phony 04.conditional_marco.c 03.marco_function.c 02.my_include_file.c 05.printlnf.c 01.file_include.c
 
 # =============================================================================
 # Built-in targets
