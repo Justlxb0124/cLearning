@@ -1,0 +1,6 @@
+# ninja log v5
+0	33	1638885817472806881	CMakeFiles/01.file_include.c.dir/01.file_include.c.o	c784af8642587603
+33	76	1638885817516485449	01.file_include.c	d1d5c0d5b26a793a
+0	53	1638893376290138176	CMakeFiles/02.my_include_file.c.dir/src/factorial.c.o	1a3c1890259a461a
+0	53	1638893376290302003	CMakeFiles/02.my_include_file.c.dir/02.my_include_file.c.o	898766ff951d1fe6
+53	95	1638893376333857021	02.my_include_file.c	4f7f9efd77f932bb

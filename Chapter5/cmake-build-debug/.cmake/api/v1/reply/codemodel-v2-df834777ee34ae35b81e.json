@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter5",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.file_include.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.file_include.c-Debug-2d87e94207588dfef821.json",
+					"name" : "01.file_include.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.my_include_file.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.my_include_file.c-Debug-a64005107b39065875fc.json",
+					"name" : "02.my_include_file.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug",
+		"source" : "/Users/macos/local/proj/cLearning/Chapter5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
