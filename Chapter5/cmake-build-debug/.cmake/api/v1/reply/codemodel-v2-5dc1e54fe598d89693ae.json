@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -59,6 +61,13 @@
 					"id" : "03.marco_function.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03.marco_function.c-Debug-39812a27b7b9c0d8153d.json",
 					"name" : "03.marco_function.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.conditional_marco.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.conditional_marco.c-Debug-5974c6e1ea30b9c25b20.json",
+					"name" : "04.conditional_marco.c",
 					"projectIndex" : 0
 				}
 			]

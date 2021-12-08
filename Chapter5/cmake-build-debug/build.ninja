@@ -40,6 +40,55 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter5 -B/Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.conditional_marco.c
+
+
+#############################################
+# Order-only phony target for 04.conditional_marco.c
+
+build cmake_object_order_depends_target_04.conditional_marco.c: phony || CMakeFiles/04.conditional_marco.c.dir
+
+build CMakeFiles/04.conditional_marco.c.dir/04.conditional_marco.c.o: C_COMPILER__04.2econditional_marco.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/04.conditional_marco.c || cmake_object_order_depends_target_04.conditional_marco.c
+  DEP_FILE = CMakeFiles/04.conditional_marco.c.dir/04.conditional_marco.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.conditional_marco.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.conditional_marco.c.dir
+
+build CMakeFiles/04.conditional_marco.c.dir/src/factorial.c.o: C_COMPILER__04.2econditional_marco.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/src/factorial.c || cmake_object_order_depends_target_04.conditional_marco.c
+  DEP_FILE = CMakeFiles/04.conditional_marco.c.dir/src/factorial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.conditional_marco.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.conditional_marco.c.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.conditional_marco.c
+
+
+#############################################
+# Link the executable 04.conditional_marco.c
+
+build 04.conditional_marco.c: C_EXECUTABLE_LINKER__04.2econditional_marco.2ec_Debug CMakeFiles/04.conditional_marco.c.dir/04.conditional_marco.c.o CMakeFiles/04.conditional_marco.c.dir/src/factorial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/04.conditional_marco.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.conditional_marco.c
+  TARGET_PDB = 04.conditional_marco.c.dbg
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 03.marco_function.c
 
@@ -116,18 +165,6 @@ build 02.my_include_file.c: C_EXECUTABLE_LINKER__02.2emy_include_file.2ec_Debug 
 
 
 #############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter5 -B/Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -185,7 +222,7 @@ build 01.file_include.c: C_EXECUTABLE_LINKER__01.2efile_include.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
 
-build all: phony 03.marco_function.c 02.my_include_file.c 01.file_include.c
+build all: phony 04.conditional_marco.c 03.marco_function.c 02.my_include_file.c 01.file_include.c
 
 # =============================================================================
 # Built-in targets
