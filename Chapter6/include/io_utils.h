@@ -10,6 +10,11 @@
 
 // "#宏的参数"  表示取出宏的参数的名字，字符串形式
 #define PRINT_INT(value) PRINTLNF(#value": %d", value)
+#define PRINT_FLOUT(value) PRINTLNF(#value": %f", value)
+#define PRINT_DOUBLE(value) PRINTLNF(#value": %lf", value)
+#define PRINT_CHAR(value) PRINTLNF(#value": %c", value)
+#define PRINT_STRING(value) PRINTLNF(#value": %s", value)
+
 
 // __FILE__ : 所在的文件
 // __LINE__ : 所在的代码行号

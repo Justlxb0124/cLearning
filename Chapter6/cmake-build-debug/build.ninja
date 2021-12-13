@@ -40,6 +40,37 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.string.c
+
+
+#############################################
+# Order-only phony target for 03.string.c
+
+build cmake_object_order_depends_target_03.string.c: phony || CMakeFiles/03.string.c.dir
+
+build CMakeFiles/03.string.c.dir/03.string.c.o: C_COMPILER__03.2estring.2ec_Debug /Users/macos/local/proj/cLearning/Chapter6/03.string.c || cmake_object_order_depends_target_03.string.c
+  DEP_FILE = CMakeFiles/03.string.c.dir/03.string.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/03.string.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.string.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.string.c
+
+
+#############################################
+# Link the executable 03.string.c
+
+build 03.string.c: C_EXECUTABLE_LINKER__03.2estring.2ec_Debug CMakeFiles/03.string.c.dir/03.string.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/03.string.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.string.c
+  TARGET_PDB = 03.string.c.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -136,7 +167,7 @@ build 01.array_basics.c: C_EXECUTABLE_LINKER__01.2earray_basics.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug
 
-build all: phony 02.array_limits.c 01.array_basics.c
+build all: phony 03.string.c 02.array_limits.c 01.array_basics.c
 
 # =============================================================================
 # Built-in targets
