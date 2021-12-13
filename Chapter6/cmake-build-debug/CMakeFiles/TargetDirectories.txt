@@ -1,5 +1,6 @@
-/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/03.string.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/03.string.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/04.array_parameter.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/02.array_limits.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/01.array_basics.c.dir

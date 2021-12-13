@@ -40,6 +40,18 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter6 -B/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 03.string.c
 
@@ -73,18 +85,6 @@ build 03.string.c: C_EXECUTABLE_LINKER__03.2estring.2ec_Debug CMakeFiles/03.stri
 
 
 #############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter6 -B/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -93,6 +93,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.array_parameter.c
+
+
+#############################################
+# Order-only phony target for 04.array_parameter.c
+
+build cmake_object_order_depends_target_04.array_parameter.c: phony || CMakeFiles/04.array_parameter.c.dir
+
+build CMakeFiles/04.array_parameter.c.dir/04.array_parameter.c.o: C_COMPILER__04.2earray_parameter.2ec_Debug /Users/macos/local/proj/cLearning/Chapter6/04.array_parameter.c || cmake_object_order_depends_target_04.array_parameter.c
+  DEP_FILE = CMakeFiles/04.array_parameter.c.dir/04.array_parameter.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.array_parameter.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.array_parameter.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.array_parameter.c
+
+
+#############################################
+# Link the executable 04.array_parameter.c
+
+build 04.array_parameter.c: C_EXECUTABLE_LINKER__04.2earray_parameter.2ec_Debug CMakeFiles/04.array_parameter.c.dir/04.array_parameter.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/04.array_parameter.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.array_parameter.c
+  TARGET_PDB = 04.array_parameter.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02.array_limits.c
@@ -167,7 +198,7 @@ build 01.array_basics.c: C_EXECUTABLE_LINKER__01.2earray_basics.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug
 
-build all: phony 03.string.c 02.array_limits.c 01.array_basics.c
+build all: phony 03.string.c 04.array_parameter.c 02.array_limits.c 01.array_basics.c
 
 # =============================================================================
 # Built-in targets
