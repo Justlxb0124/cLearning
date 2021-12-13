@@ -1,0 +1,5 @@
+# ninja log v5
+0	141	1639370882375362241	CMakeFiles/01.array_basics.c.dir/01.array_basics.c.o	953ae312dddbe278
+141	183	1639370882419676901	01.array_basics.c	8cc85562e383ee8d
+0	31	1639371343997744341	CMakeFiles/02.array_limits.c.dir/02.array_limits.c.o	f66ecd063a89c92e
+31	60	1639371344027975964	02.array_limits.c	df0abad44da4162a

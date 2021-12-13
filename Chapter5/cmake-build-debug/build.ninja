@@ -64,6 +64,43 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target test.c
+
+
+#############################################
+# Order-only phony target for test.c
+
+build cmake_object_order_depends_target_test.c: phony || CMakeFiles/test.c.dir
+
+build CMakeFiles/test.c.dir/test.c.o: C_COMPILER__test.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/test.c || cmake_object_order_depends_target_test.c
+  DEP_FILE = CMakeFiles/test.c.dir/test.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/test.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.c.dir
+
+build CMakeFiles/test.c.dir/src/factorial.c.o: C_COMPILER__test.2ec_Debug /Users/macos/local/proj/cLearning/Chapter5/src/factorial.c || cmake_object_order_depends_target_test.c
+  DEP_FILE = CMakeFiles/test.c.dir/src/factorial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/test.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.c.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test.c
+
+
+#############################################
+# Link the executable test.c
+
+build test.c: C_EXECUTABLE_LINKER__test.2ec_Debug CMakeFiles/test.c.dir/test.c.o CMakeFiles/test.c.dir/src/factorial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/test.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test.c
+  TARGET_PDB = test.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 04.conditional_marco.c
 
 
@@ -259,7 +296,7 @@ build 01.file_include.c: C_EXECUTABLE_LINKER__01.2efile_include.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug
 
-build all: phony 04.conditional_marco.c 03.marco_function.c 02.my_include_file.c 05.printlnf.c 01.file_include.c
+build all: phony test.c 04.conditional_marco.c 03.marco_function.c 02.my_include_file.c 05.printlnf.c 01.file_include.c
 
 # =============================================================================
 # Built-in targets

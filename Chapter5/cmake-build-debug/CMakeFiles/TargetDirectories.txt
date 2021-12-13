@@ -1,5 +1,6 @@
 /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/test.c.dir
 /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/04.conditional_marco.c.dir
 /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/03.marco_function.c.dir
 /Users/macos/local/proj/cLearning/Chapter5/cmake-build-debug/CMakeFiles/02.my_include_file.c.dir
