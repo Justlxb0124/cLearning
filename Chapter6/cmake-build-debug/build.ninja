@@ -52,6 +52,37 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06.shuffle_array.c
+
+
+#############################################
+# Order-only phony target for 06.shuffle_array.c
+
+build cmake_object_order_depends_target_06.shuffle_array.c: phony || CMakeFiles/06.shuffle_array.c.dir
+
+build CMakeFiles/06.shuffle_array.c.dir/06.shuffle_array.c.o: C_COMPILER__06.2eshuffle_array.2ec_Debug /Users/macos/local/proj/cLearning/Chapter6/06.shuffle_array.c || cmake_object_order_depends_target_06.shuffle_array.c
+  DEP_FILE = CMakeFiles/06.shuffle_array.c.dir/06.shuffle_array.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/06.shuffle_array.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/06.shuffle_array.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.shuffle_array.c
+
+
+#############################################
+# Link the executable 06.shuffle_array.c
+
+build 06.shuffle_array.c: C_EXECUTABLE_LINKER__06.2eshuffle_array.2ec_Debug CMakeFiles/06.shuffle_array.c.dir/06.shuffle_array.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/06.shuffle_array.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06.shuffle_array.c
+  TARGET_PDB = 06.shuffle_array.c.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -229,7 +260,7 @@ build 01.array_basics.c: C_EXECUTABLE_LINKER__01.2earray_basics.2ec_Debug CMakeF
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug
 
-build all: phony 05.2d_array.c 03.string.c 04.array_parameter.c 02.array_limits.c 01.array_basics.c
+build all: phony 06.shuffle_array.c 05.2d_array.c 03.string.c 04.array_parameter.c 02.array_limits.c 01.array_basics.c
 
 # =============================================================================
 # Built-in targets

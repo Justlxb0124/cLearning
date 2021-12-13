@@ -1,4 +1,5 @@
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/06.shuffle_array.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/05.2d_array.c.dir
 /Users/macos/local/proj/cLearning/Chapter6/cmake-build-debug/CMakeFiles/03.string.c.dir

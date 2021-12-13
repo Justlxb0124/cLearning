@@ -37,7 +37,5 @@ int main() {
   int result[5] = {0};
   SumIntArray(5, 4, scores, result);
   PRINT_INT_ARRAY(result, 5);
-
-
 }
 
