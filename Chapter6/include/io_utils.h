@@ -15,6 +15,17 @@
 #define PRINT_CHAR(value) PRINTLNF(#value": %c", value)
 #define PRINT_STRING(value) PRINTLNF(#value": %s", value)
 
+#define PRINT_ARRAY(format, array, length) \
+{ int array_index; \
+  for(array_index = 0; array_index < length; ++array_index) { \
+    printf(format, array[array_index]); \
+  }; \
+printf("\n"); }
+
+#define PRINT_INT_ARRAY(array, length) PRINT_ARRAY("%d, ", array, length)
+#define PRINT_CHAR_ARRAY(array, length) PRINT_ARRAY("%c, ", array, length)
+#define PRINT_DOUBLE_ARRAY(array, length) PRINT_ARRAY("%g, ", array, length)
+
 
 // __FILE__ : 所在的文件
 // __LINE__ : 所在的代码行号
