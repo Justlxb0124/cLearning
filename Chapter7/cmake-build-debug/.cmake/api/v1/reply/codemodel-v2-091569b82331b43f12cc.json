@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.pointer_basics.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.pointer_basics.c-Debug-eaf24b2295fde06f9d44.json",
+					"name" : "01.pointer_basics.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.readonly_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.readonly_pointer.c-Debug-8ea53b63a4534b7b10d3.json",
+					"name" : "02.readonly_pointer.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.pointer_values.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.pointer_values.c-Debug-e1d8bfab8d406d69ece3.json",
+					"name" : "03.pointer_values.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.pointer_operations.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.pointer_operations.c-Debug-c0e9fbcf3b07054a9d20.json",
+					"name" : "04.pointer_operations.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.lvalue_rvalue.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.lvalue_rvalue.c-Debug-043e002bf5c55cdd7b34.json",
+					"name" : "05.lvalue_rvalue.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.pointer_parameter_as_return_value.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.pointer_parameter_as_return_value.c-Debug-6a69873900d3f842f7f8.json",
+					"name" : "06.pointer_parameter_as_return_value.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.dynamic_memory.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.dynamic_memory.c-Debug-0779188eb393722bb920.json",
+					"name" : "07.dynamic_memory.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main.c-Debug-56a74d37b18e9fda94f6.json",
+					"name" : "main.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug",
+		"source" : "/Users/macos/local/proj/cLearning/Chapter7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
