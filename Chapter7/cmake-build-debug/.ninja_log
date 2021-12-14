@@ -1,7 +1,19 @@
 # ninja log v5
 0	28	1639388878264223794	CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.o	2e382e03cd44607f
-28	64	1639388878300586526	01.pointer_basics.c	ef888bf2b7bade8d
-0	88	1639402837367310791	CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o	a4ab9c47ffce4ec0
-88	169	1639402837448970235	02.readonly_pointer.c	493ed84c597f1c48
-1	27	1639405468265475008	CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o	a4ab9c47ffce4ec0
 27	60	1639405468298865435	02.readonly_pointer.c	493ed84c597f1c48
+28	64	1639388878300586526	01.pointer_basics.c	ef888bf2b7bade8d
+1	27	1639405468265475008	CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o	a4ab9c47ffce4ec0
+0	88	1639462199034692599	CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o	a4ab9c47ffce4ec0
+88	130	1639462199078136032	02.readonly_pointer.c	493ed84c597f1c48
+0	18	1639462222867168604	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+18	50	1639462222899838919	03.pointer_values.c	96c1bb9c575b5bac
+0	20	1639462294013762292	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+21	53	1639462294046248441	03.pointer_values.c	96c1bb9c575b5bac
+0	22	1639462301990141730	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+22	52	1639462302020594180	03.pointer_values.c	96c1bb9c575b5bac
+0	22	1639462309321054793	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+22	52	1639462309351919866	03.pointer_values.c	96c1bb9c575b5bac
+0	23	1639462328150561334	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+23	53	1639462328181754780	03.pointer_values.c	96c1bb9c575b5bac
+1	26	1639462407870015789	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o	2a38d6213ef8967c
+26	57	1639462407901855150	03.pointer_values.c	96c1bb9c575b5bac
