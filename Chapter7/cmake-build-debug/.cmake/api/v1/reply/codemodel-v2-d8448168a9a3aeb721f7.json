@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -97,6 +99,13 @@
 					"id" : "07.dynamic_memory.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-07.dynamic_memory.c-Debug-0779188eb393722bb920.json",
 					"name" : "07.dynamic_memory.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08.function_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08.function_pointer.c-Debug-873a6a269892b95c2bff.json",
+					"name" : "08.function_pointer.c",
 					"projectIndex" : 0
 				},
 				{
