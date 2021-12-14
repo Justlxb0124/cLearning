@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -79,6 +81,13 @@
 					"id" : "05.lvalue_rvalue.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05.lvalue_rvalue.c-Debug-043e002bf5c55cdd7b34.json",
 					"name" : "05.lvalue_rvalue.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.pointer_parameter_as_return_value.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.pointer_parameter_as_return_value.c-Debug-6a69873900d3f842f7f8.json",
+					"name" : "06.pointer_parameter_as_return_value.c",
 					"projectIndex" : 0
 				},
 				{
