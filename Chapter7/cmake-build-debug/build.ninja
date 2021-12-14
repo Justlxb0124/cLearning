@@ -95,6 +95,37 @@ build main.c: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/main.c.o
   TARGET_PDB = main.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 07.dynamic_memory.c
+
+
+#############################################
+# Order-only phony target for 07.dynamic_memory.c
+
+build cmake_object_order_depends_target_07.dynamic_memory.c: phony || CMakeFiles/07.dynamic_memory.c.dir
+
+build CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o: C_COMPILER__07.2edynamic_memory.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/07.dynamic_memory.c || cmake_object_order_depends_target_07.dynamic_memory.c
+  DEP_FILE = CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/07.dynamic_memory.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/07.dynamic_memory.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07.dynamic_memory.c
+
+
+#############################################
+# Link the executable 07.dynamic_memory.c
+
+build 07.dynamic_memory.c: C_EXECUTABLE_LINKER__07.2edynamic_memory.2ec_Debug CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/07.dynamic_memory.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 07.dynamic_memory.c
+  TARGET_PDB = 07.dynamic_memory.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 06.pointer_parameter_as_return_value.c
 
 
@@ -291,7 +322,7 @@ build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug
 
-build all: phony main.c 06.pointer_parameter_as_return_value.c 04.pointer_operations.c 05.lvalue_rvalue.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
+build all: phony main.c 07.dynamic_memory.c 06.pointer_parameter_as_return_value.c 04.pointer_operations.c 05.lvalue_rvalue.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
 
 # =============================================================================
 # Built-in targets

@@ -7,3 +7,13 @@
 26	57	1639462407901855150	03.pointer_values.c	96c1bb9c575b5bac
 0	23	1639467831426723823	CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o	58773f4e025d77d4
 23	56	1639467831460271566	04.pointer_operations.c	7d44c76ca1291a82
+0	136	1639481303456483762	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o	183d6f3844649bf6
+136	179	1639481303500655221	07.dynamic_memory.c	23fed5392fd06472
+0	36	1639482664391413083	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o	183d6f3844649bf6
+36	69	1639482664425264517	07.dynamic_memory.c	23fed5392fd06472
+1	36	1639483445640637403	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o	183d6f3844649bf6
+36	68	1639483445673418960	07.dynamic_memory.c	23fed5392fd06472
+1	33	1639484558864472482	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o	183d6f3844649bf6
+33	65	1639484558896548493	07.dynamic_memory.c	23fed5392fd06472
+1	32	1639484676246865142	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o	183d6f3844649bf6
+32	62	1639484676278129753	07.dynamic_memory.c	23fed5392fd06472
