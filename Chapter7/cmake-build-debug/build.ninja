@@ -126,6 +126,37 @@ build 04.pointer_operations.c: C_EXECUTABLE_LINKER__04.2epointer_operations.2ec_
   TARGET_PDB = 04.pointer_operations.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 05.lvalue_rvalue.c
+
+
+#############################################
+# Order-only phony target for 05.lvalue_rvalue.c
+
+build cmake_object_order_depends_target_05.lvalue_rvalue.c: phony || CMakeFiles/05.lvalue_rvalue.c.dir
+
+build CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o: C_COMPILER__05.2elvalue_rvalue.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/05.lvalue_rvalue.c || cmake_object_order_depends_target_05.lvalue_rvalue.c
+  DEP_FILE = CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.lvalue_rvalue.c
+
+
+#############################################
+# Link the executable 05.lvalue_rvalue.c
+
+build 05.lvalue_rvalue.c: C_EXECUTABLE_LINKER__05.2elvalue_rvalue.2ec_Debug CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.lvalue_rvalue.c
+  TARGET_PDB = 05.lvalue_rvalue.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 03.pointer_values.c
 
 
@@ -229,7 +260,7 @@ build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug
 
-build all: phony main.c 04.pointer_operations.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
+build all: phony main.c 04.pointer_operations.c 05.lvalue_rvalue.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
 
 # =============================================================================
 # Built-in targets

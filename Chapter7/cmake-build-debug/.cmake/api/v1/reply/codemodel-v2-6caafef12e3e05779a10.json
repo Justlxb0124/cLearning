@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -70,6 +72,13 @@
 					"id" : "04.pointer_operations.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-04.pointer_operations.c-Debug-c0e9fbcf3b07054a9d20.json",
 					"name" : "04.pointer_operations.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.lvalue_rvalue.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.lvalue_rvalue.c-Debug-043e002bf5c55cdd7b34.json",
+					"name" : "05.lvalue_rvalue.c",
 					"projectIndex" : 0
 				},
 				{
