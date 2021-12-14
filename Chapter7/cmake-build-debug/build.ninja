@@ -95,6 +95,37 @@ build main.c: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/main.c.o
   TARGET_PDB = main.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 02.readonly_pointer.c
+
+
+#############################################
+# Order-only phony target for 02.readonly_pointer.c
+
+build cmake_object_order_depends_target_02.readonly_pointer.c: phony || CMakeFiles/02.readonly_pointer.c.dir
+
+build CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o: C_COMPILER__02.2ereadonly_pointer.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/02.readonly_pointer.c || cmake_object_order_depends_target_02.readonly_pointer.c
+  DEP_FILE = CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/02.readonly_pointer.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/02.readonly_pointer.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02.readonly_pointer.c
+
+
+#############################################
+# Link the executable 02.readonly_pointer.c
+
+build 02.readonly_pointer.c: C_EXECUTABLE_LINKER__02.2ereadonly_pointer.2ec_Debug CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/02.readonly_pointer.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02.readonly_pointer.c
+  TARGET_PDB = 02.readonly_pointer.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01.pointer_basics.c
 
 
@@ -136,7 +167,7 @@ build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug
 
-build all: phony main.c 01.pointer_basics.c
+build all: phony main.c 02.readonly_pointer.c 01.pointer_basics.c
 
 # =============================================================================
 # Built-in targets

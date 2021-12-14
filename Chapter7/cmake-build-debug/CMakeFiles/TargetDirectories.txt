@@ -1,4 +1,5 @@
 /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug/CMakeFiles/main.c.dir
+/Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug/CMakeFiles/02.readonly_pointer.c.dir
 /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug/CMakeFiles/01.pointer_basics.c.dir

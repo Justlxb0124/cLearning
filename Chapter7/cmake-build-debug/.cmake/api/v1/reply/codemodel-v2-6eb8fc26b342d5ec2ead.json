@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "01.pointer_basics.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01.pointer_basics.c-Debug-eaf24b2295fde06f9d44.json",
 					"name" : "01.pointer_basics.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.readonly_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.readonly_pointer.c-Debug-8ea53b63a4534b7b10d3.json",
+					"name" : "02.readonly_pointer.c",
 					"projectIndex" : 0
 				},
 				{
