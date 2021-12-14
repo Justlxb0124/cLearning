@@ -14,6 +14,7 @@
 #define PRINT_DOUBLE(value) PRINTLNF(#value": %lf", value)
 #define PRINT_CHAR(value) PRINTLNF(#value": %c", value)
 #define PRINT_STRING(value) PRINTLNF(#value": %s", value)
+#define PRINT_BOOL(value) PRINTLNF (#value": %s", value ? "true" : "false")
 
 
 #define PRINT_HEX(value) PRINTLNF(#value": %lx", value)

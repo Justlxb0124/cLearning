@@ -95,6 +95,37 @@ build main.c: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/main.c.o
   TARGET_PDB = main.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 04.pointer_operations.c
+
+
+#############################################
+# Order-only phony target for 04.pointer_operations.c
+
+build cmake_object_order_depends_target_04.pointer_operations.c: phony || CMakeFiles/04.pointer_operations.c.dir
+
+build CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o: C_COMPILER__04.2epointer_operations.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/04.pointer_operations.c || cmake_object_order_depends_target_04.pointer_operations.c
+  DEP_FILE = CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.pointer_operations.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.pointer_operations.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.pointer_operations.c
+
+
+#############################################
+# Link the executable 04.pointer_operations.c
+
+build 04.pointer_operations.c: C_EXECUTABLE_LINKER__04.2epointer_operations.2ec_Debug CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/04.pointer_operations.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.pointer_operations.c
+  TARGET_PDB = 04.pointer_operations.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 03.pointer_values.c
 
 
@@ -198,7 +229,7 @@ build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug
 
-build all: phony main.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
+build all: phony main.c 04.pointer_operations.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
 
 # =============================================================================
 # Built-in targets
