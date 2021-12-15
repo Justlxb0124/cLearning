@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.pointer_basics.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.pointer_basics.c-Debug-07c4d92ca9d29c2f2c27.json",
+					"name" : "01.pointer_basics.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.readonly_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.readonly_pointer.c-Debug-76542fb85ae299403dbc.json",
+					"name" : "02.readonly_pointer.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.pointer_values.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.pointer_values.c-Debug-8951a6aae04aa44a39b2.json",
+					"name" : "03.pointer_values.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.pointer_operations.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.pointer_operations.c-Debug-cab573ba14403c2a3935.json",
+					"name" : "04.pointer_operations.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.lvalue_rvalue.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.lvalue_rvalue.c-Debug-05f110a3a70d38c59386.json",
+					"name" : "05.lvalue_rvalue.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.pointer_parameter_as_return_value.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.pointer_parameter_as_return_value.c-Debug-12dead77e1097bc65994.json",
+					"name" : "06.pointer_parameter_as_return_value.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.dynamic_memory.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.dynamic_memory.c-Debug-8a1adda75683219ae833.json",
+					"name" : "07.dynamic_memory.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08.function_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08.function_pointer.c-Debug-2de38e05bacf7d983e14.json",
+					"name" : "08.function_pointer.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09.swap_values.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09.swap_values.c-Debug-992fe5ae8a10b0eec326.json",
+					"name" : "09.swap_values.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main.c-Debug-387897c089a5a1f0cb96.json",
+					"name" : "main.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug",
+		"source" : "/Users/macos/local/proj/cLearning/Chapter7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

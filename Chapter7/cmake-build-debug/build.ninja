@@ -74,7 +74,7 @@ build cmake_object_order_depends_target_main.c: phony || CMakeFiles/main.c.dir
 
 build CMakeFiles/main.c.dir/main.c.o: C_COMPILER__main.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/main.c || cmake_object_order_depends_target_main.c
   DEP_FILE = CMakeFiles/main.c.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/main.c.dir
   OBJECT_FILE_DIR = CMakeFiles/main.c.dir
 
@@ -87,12 +87,43 @@ build CMakeFiles/main.c.dir/main.c.o: C_COMPILER__main.2ec_Debug /Users/macos/lo
 # Link the executable main.c
 
 build main.c: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/main.c.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = main.c
   TARGET_PDB = main.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09.swap_values.c
+
+
+#############################################
+# Order-only phony target for 09.swap_values.c
+
+build cmake_object_order_depends_target_09.swap_values.c: phony || CMakeFiles/09.swap_values.c.dir
+
+build CMakeFiles/09.swap_values.c.dir/09.swap_values.c.o: C_COMPILER__09.2eswap_values.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/09.swap_values.c || cmake_object_order_depends_target_09.swap_values.c
+  DEP_FILE = CMakeFiles/09.swap_values.c.dir/09.swap_values.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/09.swap_values.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/09.swap_values.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09.swap_values.c
+
+
+#############################################
+# Link the executable 09.swap_values.c
+
+build 09.swap_values.c: C_EXECUTABLE_LINKER__09.2eswap_values.2ec_Debug CMakeFiles/09.swap_values.c.dir/09.swap_values.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/09.swap_values.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 09.swap_values.c
+  TARGET_PDB = 09.swap_values.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 08.function_pointer.c
@@ -105,7 +136,7 @@ build cmake_object_order_depends_target_08.function_pointer.c: phony || CMakeFil
 
 build CMakeFiles/08.function_pointer.c.dir/08.function_pointer.c.o: C_COMPILER__08.2efunction_pointer.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/08.function_pointer.c || cmake_object_order_depends_target_08.function_pointer.c
   DEP_FILE = CMakeFiles/08.function_pointer.c.dir/08.function_pointer.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/08.function_pointer.c.dir
   OBJECT_FILE_DIR = CMakeFiles/08.function_pointer.c.dir
 
@@ -118,7 +149,7 @@ build CMakeFiles/08.function_pointer.c.dir/08.function_pointer.c.o: C_COMPILER__
 # Link the executable 08.function_pointer.c
 
 build 08.function_pointer.c: C_EXECUTABLE_LINKER__08.2efunction_pointer.2ec_Debug CMakeFiles/08.function_pointer.c.dir/08.function_pointer.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/08.function_pointer.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -136,7 +167,7 @@ build cmake_object_order_depends_target_07.dynamic_memory.c: phony || CMakeFiles
 
 build CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o: C_COMPILER__07.2edynamic_memory.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/07.dynamic_memory.c || cmake_object_order_depends_target_07.dynamic_memory.c
   DEP_FILE = CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/07.dynamic_memory.c.dir
   OBJECT_FILE_DIR = CMakeFiles/07.dynamic_memory.c.dir
 
@@ -149,7 +180,7 @@ build CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o: C_COMPILER__07.2
 # Link the executable 07.dynamic_memory.c
 
 build 07.dynamic_memory.c: C_EXECUTABLE_LINKER__07.2edynamic_memory.2ec_Debug CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/07.dynamic_memory.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -167,7 +198,7 @@ build cmake_object_order_depends_target_06.pointer_parameter_as_return_value.c: 
 
 build CMakeFiles/06.pointer_parameter_as_return_value.c.dir/06.pointer_parameter_as_return_value.c.o: C_COMPILER__06.2epointer_parameter_as_return_value.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/06.pointer_parameter_as_return_value.c || cmake_object_order_depends_target_06.pointer_parameter_as_return_value.c
   DEP_FILE = CMakeFiles/06.pointer_parameter_as_return_value.c.dir/06.pointer_parameter_as_return_value.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/06.pointer_parameter_as_return_value.c.dir
   OBJECT_FILE_DIR = CMakeFiles/06.pointer_parameter_as_return_value.c.dir
 
@@ -180,7 +211,7 @@ build CMakeFiles/06.pointer_parameter_as_return_value.c.dir/06.pointer_parameter
 # Link the executable 06.pointer_parameter_as_return_value.c
 
 build 06.pointer_parameter_as_return_value.c: C_EXECUTABLE_LINKER__06.2epointer_parameter_as_return_value.2ec_Debug CMakeFiles/06.pointer_parameter_as_return_value.c.dir/06.pointer_parameter_as_return_value.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/06.pointer_parameter_as_return_value.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -198,7 +229,7 @@ build cmake_object_order_depends_target_04.pointer_operations.c: phony || CMakeF
 
 build CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o: C_COMPILER__04.2epointer_operations.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/04.pointer_operations.c || cmake_object_order_depends_target_04.pointer_operations.c
   DEP_FILE = CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/04.pointer_operations.c.dir
   OBJECT_FILE_DIR = CMakeFiles/04.pointer_operations.c.dir
 
@@ -211,7 +242,7 @@ build CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o: C_COMPIL
 # Link the executable 04.pointer_operations.c
 
 build 04.pointer_operations.c: C_EXECUTABLE_LINKER__04.2epointer_operations.2ec_Debug CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/04.pointer_operations.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -229,7 +260,7 @@ build cmake_object_order_depends_target_05.lvalue_rvalue.c: phony || CMakeFiles/
 
 build CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o: C_COMPILER__05.2elvalue_rvalue.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/05.lvalue_rvalue.c || cmake_object_order_depends_target_05.lvalue_rvalue.c
   DEP_FILE = CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
   OBJECT_FILE_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
 
@@ -242,7 +273,7 @@ build CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o: C_COMPILER__05.2el
 # Link the executable 05.lvalue_rvalue.c
 
 build 05.lvalue_rvalue.c: C_EXECUTABLE_LINKER__05.2elvalue_rvalue.2ec_Debug CMakeFiles/05.lvalue_rvalue.c.dir/05.lvalue_rvalue.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/05.lvalue_rvalue.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -260,7 +291,7 @@ build cmake_object_order_depends_target_03.pointer_values.c: phony || CMakeFiles
 
 build CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o: C_COMPILER__03.2epointer_values.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/03.pointer_values.c || cmake_object_order_depends_target_03.pointer_values.c
   DEP_FILE = CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/03.pointer_values.c.dir
   OBJECT_FILE_DIR = CMakeFiles/03.pointer_values.c.dir
 
@@ -273,7 +304,7 @@ build CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o: C_COMPILER__03.2
 # Link the executable 03.pointer_values.c
 
 build 03.pointer_values.c: C_EXECUTABLE_LINKER__03.2epointer_values.2ec_Debug CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/03.pointer_values.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -291,7 +322,7 @@ build cmake_object_order_depends_target_02.readonly_pointer.c: phony || CMakeFil
 
 build CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o: C_COMPILER__02.2ereadonly_pointer.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/02.readonly_pointer.c || cmake_object_order_depends_target_02.readonly_pointer.c
   DEP_FILE = CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/02.readonly_pointer.c.dir
   OBJECT_FILE_DIR = CMakeFiles/02.readonly_pointer.c.dir
 
@@ -304,7 +335,7 @@ build CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o: C_COMPILER__
 # Link the executable 02.readonly_pointer.c
 
 build 02.readonly_pointer.c: C_EXECUTABLE_LINKER__02.2ereadonly_pointer.2ec_Debug CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/02.readonly_pointer.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -322,7 +353,7 @@ build cmake_object_order_depends_target_01.pointer_basics.c: phony || CMakeFiles
 
 build CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.o: C_COMPILER__01.2epointer_basics.2ec_Debug /Users/macos/local/proj/cLearning/Chapter7/01.pointer_basics.c || cmake_object_order_depends_target_01.pointer_basics.c
   DEP_FILE = CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/01.pointer_basics.c.dir
   OBJECT_FILE_DIR = CMakeFiles/01.pointer_basics.c.dir
 
@@ -335,7 +366,7 @@ build CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.o: C_COMPILER__01.2
 # Link the executable 01.pointer_basics.c
 
 build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/01.pointer_basics.c.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -353,7 +384,7 @@ build 01.pointer_basics.c: C_EXECUTABLE_LINKER__01.2epointer_basics.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter7/cmake-build-debug
 
-build all: phony main.c 08.function_pointer.c 07.dynamic_memory.c 06.pointer_parameter_as_return_value.c 04.pointer_operations.c 05.lvalue_rvalue.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
+build all: phony main.c 09.swap_values.c 08.function_pointer.c 07.dynamic_memory.c 06.pointer_parameter_as_return_value.c 04.pointer_operations.c 05.lvalue_rvalue.c 03.pointer_values.c 02.readonly_pointer.c 01.pointer_basics.c
 
 # =============================================================================
 # Built-in targets
