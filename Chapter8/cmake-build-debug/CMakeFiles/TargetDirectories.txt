@@ -1,3 +1,4 @@
 /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/CMakeFiles/Chapter8.dir
+/Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/CMakeFiles/02.memory_align.c.dir
+/Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/CMakeFiles/01.struct.c.dir
