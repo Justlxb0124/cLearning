@@ -52,6 +52,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 06.linked_list.c
+
+
+#############################################
+# Order-only phony target for 06.linked_list.c
+
+build cmake_object_order_depends_target_06.linked_list.c: phony || CMakeFiles/06.linked_list.c.dir
+
+build CMakeFiles/06.linked_list.c.dir/06.linked_list.c.o: C_COMPILER__06.2elinked_list.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/06.linked_list.c || cmake_object_order_depends_target_06.linked_list.c
+  DEP_FILE = CMakeFiles/06.linked_list.c.dir/06.linked_list.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/06.linked_list.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/06.linked_list.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.linked_list.c
+
+
+#############################################
+# Link the executable 06.linked_list.c
+
+build 06.linked_list.c: C_EXECUTABLE_LINKER__06.2elinked_list.2ec_Debug CMakeFiles/06.linked_list.c.dir/06.linked_list.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/06.linked_list.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06.linked_list.c
+  TARGET_PDB = 06.linked_list.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 05.byte_order.c
 
 
@@ -229,7 +260,7 @@ build 04.enum.c: C_EXECUTABLE_LINKER__04.2eenum.2ec_Debug CMakeFiles/04.enum.c.d
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug
 
-build all: phony 05.byte_order.c 01.struct.c 03.union.c 02.memory_align.c 04.enum.c
+build all: phony 06.linked_list.c 05.byte_order.c 01.struct.c 03.union.c 02.memory_align.c 04.enum.c
 
 # =============================================================================
 # Built-in targets
