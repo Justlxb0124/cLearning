@@ -52,6 +52,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 05.byte_order.c
+
+
+#############################################
+# Order-only phony target for 05.byte_order.c
+
+build cmake_object_order_depends_target_05.byte_order.c: phony || CMakeFiles/05.byte_order.c.dir
+
+build CMakeFiles/05.byte_order.c.dir/05.byte_order.c.o: C_COMPILER__05.2ebyte_order.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/05.byte_order.c || cmake_object_order_depends_target_05.byte_order.c
+  DEP_FILE = CMakeFiles/05.byte_order.c.dir/05.byte_order.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.byte_order.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.byte_order.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.byte_order.c
+
+
+#############################################
+# Link the executable 05.byte_order.c
+
+build 05.byte_order.c: C_EXECUTABLE_LINKER__05.2ebyte_order.2ec_Debug CMakeFiles/05.byte_order.c.dir/05.byte_order.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/05.byte_order.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.byte_order.c
+  TARGET_PDB = 05.byte_order.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01.struct.c
 
 
@@ -198,7 +229,7 @@ build 04.enum.c: C_EXECUTABLE_LINKER__04.2eenum.2ec_Debug CMakeFiles/04.enum.c.d
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug
 
-build all: phony 01.struct.c 03.union.c 02.memory_align.c 04.enum.c
+build all: phony 05.byte_order.c 01.struct.c 03.union.c 02.memory_align.c 04.enum.c
 
 # =============================================================================
 # Built-in targets
