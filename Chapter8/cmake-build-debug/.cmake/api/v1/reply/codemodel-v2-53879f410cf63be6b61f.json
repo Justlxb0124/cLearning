@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -59,6 +61,13 @@
 					"id" : "03.union.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03.union.c-Debug-9522468c54c6cefbaf4b.json",
 					"name" : "03.union.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.enum.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.enum.c-Debug-2cfe956d5fa53c0c5c73.json",
+					"name" : "04.enum.c",
 					"projectIndex" : 0
 				}
 			]

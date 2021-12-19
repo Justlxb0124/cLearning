@@ -42,18 +42,6 @@ include CMakeFiles/rules.ninja
 cmake_ninja_workdir = /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug/
 
 #############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter8 -B/Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -62,68 +50,6 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03.union.c
-
-
-#############################################
-# Order-only phony target for 03.union.c
-
-build cmake_object_order_depends_target_03.union.c: phony || CMakeFiles/03.union.c.dir
-
-build CMakeFiles/03.union.c.dir/03.union.c.o: C_COMPILER__03.2eunion.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/03.union.c || cmake_object_order_depends_target_03.union.c
-  DEP_FILE = CMakeFiles/03.union.c.dir/03.union.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
-  OBJECT_DIR = CMakeFiles/03.union.c.dir
-  OBJECT_FILE_DIR = CMakeFiles/03.union.c.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03.union.c
-
-
-#############################################
-# Link the executable 03.union.c
-
-build 03.union.c: C_EXECUTABLE_LINKER__03.2eunion.2ec_Debug CMakeFiles/03.union.c.dir/03.union.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/03.union.c.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03.union.c
-  TARGET_PDB = 03.union.c.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 02.memory_align.c
-
-
-#############################################
-# Order-only phony target for 02.memory_align.c
-
-build cmake_object_order_depends_target_02.memory_align.c: phony || CMakeFiles/02.memory_align.c.dir
-
-build CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o: C_COMPILER__02.2ememory_align.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/02.memory_align.c || cmake_object_order_depends_target_02.memory_align.c
-  DEP_FILE = CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
-  OBJECT_DIR = CMakeFiles/02.memory_align.c.dir
-  OBJECT_FILE_DIR = CMakeFiles/02.memory_align.c.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02.memory_align.c
-
-
-#############################################
-# Link the executable 02.memory_align.c
-
-build 02.memory_align.c: C_EXECUTABLE_LINKER__02.2ememory_align.2ec_Debug CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/02.memory_align.c.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02.memory_align.c
-  TARGET_PDB = 02.memory_align.c.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01.struct.c
@@ -157,6 +83,111 @@ build 01.struct.c: C_EXECUTABLE_LINKER__01.2estruct.2ec_Debug CMakeFiles/01.stru
   TARGET_PDB = 01.struct.c.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 03.union.c
+
+
+#############################################
+# Order-only phony target for 03.union.c
+
+build cmake_object_order_depends_target_03.union.c: phony || CMakeFiles/03.union.c.dir
+
+build CMakeFiles/03.union.c.dir/03.union.c.o: C_COMPILER__03.2eunion.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/03.union.c || cmake_object_order_depends_target_03.union.c
+  DEP_FILE = CMakeFiles/03.union.c.dir/03.union.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/03.union.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.union.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.union.c
+
+
+#############################################
+# Link the executable 03.union.c
+
+build 03.union.c: C_EXECUTABLE_LINKER__03.2eunion.2ec_Debug CMakeFiles/03.union.c.dir/03.union.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/03.union.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.union.c
+  TARGET_PDB = 03.union.c.dbg
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug && "/Users/macos/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/macos/local/proj/cLearning/Chapter8 -B/Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02.memory_align.c
+
+
+#############################################
+# Order-only phony target for 02.memory_align.c
+
+build cmake_object_order_depends_target_02.memory_align.c: phony || CMakeFiles/02.memory_align.c.dir
+
+build CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o: C_COMPILER__02.2ememory_align.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/02.memory_align.c || cmake_object_order_depends_target_02.memory_align.c
+  DEP_FILE = CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/02.memory_align.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/02.memory_align.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02.memory_align.c
+
+
+#############################################
+# Link the executable 02.memory_align.c
+
+build 02.memory_align.c: C_EXECUTABLE_LINKER__02.2ememory_align.2ec_Debug CMakeFiles/02.memory_align.c.dir/02.memory_align.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/02.memory_align.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02.memory_align.c
+  TARGET_PDB = 02.memory_align.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.enum.c
+
+
+#############################################
+# Order-only phony target for 04.enum.c
+
+build cmake_object_order_depends_target_04.enum.c: phony || CMakeFiles/04.enum.c.dir
+
+build CMakeFiles/04.enum.c.dir/04.enum.c.o: C_COMPILER__04.2eenum.2ec_Debug /Users/macos/local/proj/cLearning/Chapter8/04.enum.c || cmake_object_order_depends_target_04.enum.c
+  DEP_FILE = CMakeFiles/04.enum.c.dir/04.enum.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/04.enum.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.enum.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.enum.c
+
+
+#############################################
+# Link the executable 04.enum.c
+
+build 04.enum.c: C_EXECUTABLE_LINKER__04.2eenum.2ec_Debug CMakeFiles/04.enum.c.dir/04.enum.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/04.enum.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.enum.c
+  TARGET_PDB = 04.enum.c.dbg
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -167,7 +198,7 @@ build 01.struct.c: C_EXECUTABLE_LINKER__01.2estruct.2ec_Debug CMakeFiles/01.stru
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter8/cmake-build-debug
 
-build all: phony 03.union.c 02.memory_align.c 01.struct.c
+build all: phony 01.struct.c 03.union.c 02.memory_align.c 04.enum.c
 
 # =============================================================================
 # Built-in targets
