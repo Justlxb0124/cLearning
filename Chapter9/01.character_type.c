@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <ctype.h>
+#include "include/io_utils.h"
+
+int main() {
+  PRINT_INT(isdigit('4'));
+  return 0;
+}
