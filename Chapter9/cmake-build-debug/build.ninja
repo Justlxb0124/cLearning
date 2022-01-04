@@ -64,6 +64,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 05.string_tokenize.c
+
+
+#############################################
+# Order-only phony target for 05.string_tokenize.c
+
+build cmake_object_order_depends_target_05.string_tokenize.c: phony || CMakeFiles/05.string_tokenize.c.dir
+
+build CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o: C_COMPILER__05.2estring_tokenize.2ec_Debug /Users/macos/local/proj/cLearning/Chapter9/05.string_tokenize.c || cmake_object_order_depends_target_05.string_tokenize.c
+  DEP_FILE = CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/05.string_tokenize.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/05.string_tokenize.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.string_tokenize.c
+
+
+#############################################
+# Link the executable 05.string_tokenize.c
+
+build 05.string_tokenize.c: C_EXECUTABLE_LINKER__05.2estring_tokenize.2ec_Debug CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/05.string_tokenize.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05.string_tokenize.c
+  TARGET_PDB = 05.string_tokenize.c.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 02.conversion.c
 
 
@@ -136,7 +167,7 @@ build 01.character_type.c: C_EXECUTABLE_LINKER__01.2echaracter_type.2ec_Debug CM
 #############################################
 # Folder: /Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug
 
-build all: phony 02.conversion.c 01.character_type.c
+build all: phony 05.string_tokenize.c 02.conversion.c 01.character_type.c
 
 # =============================================================================
 # Built-in targets

@@ -1,4 +1,5 @@
 /Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug/CMakeFiles/05.string_tokenize.c.dir
 /Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug/CMakeFiles/02.conversion.c.dir
 /Users/macos/local/proj/cLearning/Chapter9/cmake-build-debug/CMakeFiles/01.character_type.c.dir

@@ -1,15 +1,11 @@
 # ninja log v5
 0	26	1641261911871999663	CMakeFiles/01.character_type.c.dir/01.character_type.c.o	d4a5f68dc4542592
 26	63	1641261911909087363	01.character_type.c	af68a9e9ab030503
-0	50	1641263377387004391	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
-50	86	1641263377423776513	02.conversion.c	deea6337f07c3dff
-1	29	1641263404772427718	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
-29	58	1641263404805709116	02.conversion.c	deea6337f07c3dff
-1	32	1641263428880950643	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
-32	63	1641263428913109244	02.conversion.c	deea6337f07c3dff
-0	23	1641263435485113085	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
-23	53	1641263435515197677	02.conversion.c	deea6337f07c3dff
-2	125	1641265252700073418	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
-125	155	1641265252732133539	02.conversion.c	deea6337f07c3dff
 0	62	1641265371373346020	CMakeFiles/02.conversion.c.dir/02.conversion.c.o	4e0acceacc4e60ee
 62	99	1641265371410526352	02.conversion.c	deea6337f07c3dff
+0	146	1641287102219587760	CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o	3a96b0c63430c266
+146	185	1641287102259324865	05.string_tokenize.c	4182a141aef2c43d
+0	34	1641287307362167974	CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o	3a96b0c63430c266
+34	74	1641287307402356529	05.string_tokenize.c	4182a141aef2c43d
+0	34	1641287381061916908	CMakeFiles/05.string_tokenize.c.dir/05.string_tokenize.c.o	3a96b0c63430c266
+34	66	1641287381094167184	05.string_tokenize.c	4182a141aef2c43d

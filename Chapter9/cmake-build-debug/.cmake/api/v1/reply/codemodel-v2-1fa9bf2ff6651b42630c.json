@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "02.conversion.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02.conversion.c-Debug-e56592ae6d8e529d8006.json",
 					"name" : "02.conversion.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.string_tokenize.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.string_tokenize.c-Debug-60b6538130f70beef7c0.json",
+					"name" : "05.string_tokenize.c",
 					"projectIndex" : 0
 				}
 			]
